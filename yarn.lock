@@ -2460,7 +2460,7 @@ __metadata:
     ufo: ^0.7.9
     unbuild: latest
     unplugin: ^0.2.20
-    unplugin-vue2-script-setup: 0.6.14
+    unplugin-vue2-script-setup: 0.6.15
     vite: ^2.6.14
     vite-plugin-vue2: ^1.9.0
     vue: ^2
@@ -2765,7 +2765,7 @@ __metadata:
     ufo: ^0.7.9
     unbuild: latest
     unctx: ^1.0.2
-    untyped: ^0.2.12
+    untyped: ^0.2.13
   languageName: unknown
   linkType: soft
 
@@ -2835,7 +2835,7 @@ __metadata:
     pathe: ^0.2.0
     pkg-types: ^0.3.1
     pretty-bytes: ^5.6.0
-    rollup: ^2.59.0
+    rollup: ^2.60.0
     rollup-plugin-terser: ^7.0.2
     rollup-plugin-visualizer: ^5.5.2
     serve-placeholder: ^1.2.4
@@ -3175,7 +3175,7 @@ __metadata:
     vue: 3.2.21
     vue-loader: ^16.8.3
     vue-style-loader: ^4.1.3
-    webpack: ^5.63.0
+    webpack: ^5.64.0
     webpack-bundle-analyzer: ^4.5.0
     webpack-dev-middleware: ^5.2.1
     webpack-hot-middleware: ^2.25.1
@@ -18102,7 +18102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.57.0, rollup@npm:^2.58.0, rollup@npm:^2.59.0":
+"rollup@npm:^2.57.0, rollup@npm:^2.58.0":
   version: 2.59.0
   resolution: "rollup@npm:2.59.0"
   dependencies:
@@ -18113,6 +18113,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 9fbaa72b8ff840b366f4da3ba35379a3d115fd52e1dced1693995005a9ff7e1699829ff16d8eb65c0a9eff26b57b4914dca7511f22e4d900af8c757d7129124d
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^2.60.0":
+  version: 2.60.0
+  resolution: "rollup@npm:2.60.0"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: ef267b49a203f3db86d6db8c63de8737d6e3995d988dadf35c1922964c21cafbb95990543cfc716356d31bf6ca3975e58d9195df85b28721ecdc9acd3693acca
   languageName: node
   linkType: hard
 
@@ -20186,9 +20200,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin-vue2-script-setup@npm:0.6.14":
-  version: 0.6.14
-  resolution: "unplugin-vue2-script-setup@npm:0.6.14"
+"unplugin-vue2-script-setup@npm:0.6.15":
+  version: 0.6.15
+  resolution: "unplugin-vue2-script-setup@npm:0.6.15"
   dependencies:
     "@antfu/utils": ^0.3.0
     "@babel/core": ^7.15.5
@@ -20208,7 +20222,7 @@ __metadata:
   peerDependenciesMeta:
     pug:
       optional: true
-  checksum: dc2deb36fb53f7d1c9fecdee6ebd399d7c2bf8ac5b8d9987ad5e74bec19c3a9e1a5bd3f29232608bb362b46ffc016742b87157664248757106a1b880517323dc
+  checksum: 6c24da1ad635dc9346ba18e569a73d17da5f0f07e636d622535b60153c2d5fabfcea87e6df84c2b6156fbdce099ff20220d11b341842333d7b374b327e06fbaa
   languageName: node
   linkType: hard
 
@@ -20267,7 +20281,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"untyped@npm:^0.2.12, untyped@npm:^0.2.9":
+"untyped@npm:^0.2.13":
+  version: 0.2.13
+  resolution: "untyped@npm:0.2.13"
+  checksum: bc59b8cf76e51858fb66fdb316bc937a12420bfd81d0dff7e09948f16d0d55e9a682a0649e5fb15c1aa1aeeb46c53788b7e18e205526220c8bfe34c9cf4e5590
+  languageName: node
+  linkType: hard
+
+"untyped@npm:^0.2.9":
   version: 0.2.12
   resolution: "untyped@npm:0.2.12"
   checksum: 866e8d18e9b18a3282954e014e232f8884bc47994a5ba2dbfb6150d0484cae65819428e5f743aa942a026c719bffc40010881d37b7a6da085942f7e103414aa7
@@ -21011,9 +21032,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.63.0":
-  version: 5.63.0
-  resolution: "webpack@npm:5.63.0"
+"webpack@npm:^5.64.0":
+  version: 5.64.0
+  resolution: "webpack@npm:5.64.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -21044,7 +21065,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 8127be3d900d8e57f106f61dc66f8334162d5425d770f46b2110c89057c1607e9be1a20fa37ee53bd6915e3041dc074c5e2aa99665abb18112463b91606946f7
+  checksum: 9d32a61d988b0cd34f7c2b9006ac2eec81c36a72acf3b7f01c6c567c2ebc95bb75d422a53a5bea69c36dbfc50c11ac953ec07742da43c55beb512d0f2d4bb400
   languageName: node
   linkType: hard
 
