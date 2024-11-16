@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@nuxt/friendly-errors-webpack-plugin": "^2.5.2",
-    "@nuxt/kit": "3.0.0",
+    "@nuxt/kit": "3.13.2",
     "@vue/babel-preset-jsx": "^1.2.4",
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
