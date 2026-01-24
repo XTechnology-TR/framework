@@ -17,7 +17,7 @@
     "vue": "3.2.21"
   },
   "dependencies": {
-    "@nuxt/kit": "3.0.0",
+    "@nuxt/kit": "3.16.0",
     "@vitejs/plugin-vue": "^1.9.4",
     "@vitejs/plugin-vue-jsx": "^1.2.0",
     "autoprefixer": "^10.4.0",
